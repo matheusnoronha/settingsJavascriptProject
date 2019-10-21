@@ -1,0 +1,52 @@
+{
+  "window.zoomLevel": 1,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+
+  //eslint
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+      {
+          "language": "javascript",
+          "autoFix": true
+
+      },
+      {
+          "language": "javascriptreact",
+          "autoFix": true
+
+      },
+      {
+          "language": "typescript",
+          "autoFix": true
+
+      },
+      {
+          "language": "typescriptreact",
+          "autoFix": true
+
+      },
+  ],
+  
+  //tamanho letra no terminal
+  "terminal.integrated.fontSize": 18,
+  
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled": false,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": false,
+
+}
